@@ -6,7 +6,7 @@ namespace COMP003B_Lecture_3.Controllers
 {
     public class StudentsController : Controller
     {
-        private static List<StudentsControlle
+        private static List<Student> _students= new List<StudentsController>();
         //GET: Studets/ 
         public IActionResult Index()
         {
